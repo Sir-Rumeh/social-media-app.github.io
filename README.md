@@ -1,3 +1,5 @@
+[Live Site Here](https://linkedin-social-media-app.netlify.app/)
+
 ## Technologies used for this application
 
 1. React.
@@ -5,6 +7,7 @@
 3. Tailwind CSS.
 4. Moralis.
 5. Json-Server.
+6. Axios.
 
 # Getting Started with Create React App and Redux
 
