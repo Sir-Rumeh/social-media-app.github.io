@@ -1,10 +1,10 @@
 ## Technologies used for this application
 
-React.
-Redux with Redux Toolkit.
-Tailwind CSS.
-Moralis.
-Json-Server.
+1. React.
+2. Redux with Redux Toolkit.
+3. Tailwind CSS.
+4. Moralis.
+5. Json-Server.
 
 # Getting Started with Create React App and Redux
 
