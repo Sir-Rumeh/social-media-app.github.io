@@ -23,7 +23,7 @@ function NavMenu() {
 
 	return (
 		<div
-			className="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
+			className="hidden top-navbar lg:inline-flex lg:flex-grow lg:w-auto lg:mr-[115px]"
 			id="navigation"
 		>
 			<div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto ">
@@ -49,21 +49,24 @@ function NavMenu() {
 						<span>
 							<ProfilePicIcon src={ProfilePic} />
 						</span>
-						<span>Me</span>
+						<span className="text-[12px] font-light">Me</span>
 					</a>
 
 					<a
 						href="#"
-						className="lg:inline-flex flex-col lg:w-auto w-full pl-7 py-2 rounded text-[#666666] items-center justify-center  ml-5 "
+						className="lg:inline-flex flex-col lg:w-auto w-full pl-7 py-2 rounded text-[#666666] items-center justify-center  ml-5 mr-5 "
 					>
 						<span>
 							<WorkIcon />
 						</span>
-						<span style={arrowStyle}>
+						<span
+							className="text-[12px] font-light"
+							style={arrowStyle}
+						>
 							<ArrowDownIcon />
 						</span>
 					</a>
-					<span>
+					<span className="">
 						<small className="text-[#915907]">
 							Try Premium for free
 						</small>

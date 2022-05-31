@@ -46,8 +46,8 @@ function Header() {
 	});
 
 	return (
-		<nav className="flex items-center bg-white  p-1  lg:px-[195px] flex-wrap">
-			<a href="#" className="p-2 lg:mr-4 inline-flex items-center">
+		<nav className="flex items-center bg-white  p-1  lg:px-[175px] lg:pr-[100px] flex-wrap">
+			<a href="#" className="p-2 lg:mr-0 inline-flex items-center">
 				<Logo />
 				<span className="text-xl text-black font-bold uppercase hidden lg:block ml-3 w-72">
 					<SearchBar />

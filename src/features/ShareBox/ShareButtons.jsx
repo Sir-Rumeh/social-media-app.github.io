@@ -6,7 +6,7 @@ import { PhotoIcon, VideoIcon, EventIcon, ArticleIcon } from "../../icons";
 function ShareButtons() {
 	return (
 		<div className="flex items-center justify-center mx-auto px-0 w-full">
-			<button className="flex items-center py-2 px-10   hover:bg-[#ececec]">
+			<button className="flex items-center py-2 px-8   hover:bg-[#ececec]">
 				<span className="mr-2">
 					<PhotoIcon />
 				</span>

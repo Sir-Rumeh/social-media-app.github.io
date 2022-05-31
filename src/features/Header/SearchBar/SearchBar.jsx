@@ -5,15 +5,15 @@ import { SearchIcon } from "../../../icons";
 
 function SearchBar() {
 	return (
-		<form action="" className="w-[280px] max-w-md">
+		<form action="" className="w-[280px] max-w-md ">
 			<div className="relative flex items-center text-gray-400 focus-within:text-gray-600">
 				<input
 					type="text"
 					name="search"
-					placeholder="Search talk"
+					placeholder="Arama Yap"
 					autocomplete="off"
 					aria-label="Search talk"
-					className="w-full pr-3 pl-10 py-2 font-semibold placeholder-gray-500 text-black border-none focus:ring-gray-500 focus:ring-2"
+					className="w-full pl-10 py-2 placeholder-[#666666] opacity-80 text-black font-light text-sm border-none focus:ring-gray-500 focus:ring-2 bg-[#EEF3F8]"
 				/>
 				<SearchIcon />
 			</div>
