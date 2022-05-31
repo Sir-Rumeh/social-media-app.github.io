@@ -17,8 +17,8 @@ import {
 import ProfilePic from "../../../images/CardProfilePicture.png";
 
 function NavMenu() {
-	const arrowStyle = {
-		marginTop: "10px",
+	const Style = {
+		color: "black",
 	};
 
 	return (
@@ -27,7 +27,11 @@ function NavMenu() {
 			id="navigation"
 		>
 			<div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto ">
-				<NavItems navItemIcon={<HomeIcon />} navItemText={"Home"} />
+				<NavItems
+					Style={Style}
+					navItemIcon={<HomeIcon />}
+					navItemText={"Home"}
+				/>
 				<NavItems
 					navItemIcon={<MyNetworkIcon />}
 					navItemText={"My Network"}
@@ -59,10 +63,7 @@ function NavMenu() {
 						<span>
 							<WorkIcon />
 						</span>
-						<span
-							className="text-[12px] font-light"
-							style={arrowStyle}
-						>
+						<span className="text-[12px] font-light">
 							<ArrowDownIcon />
 						</span>
 					</a>

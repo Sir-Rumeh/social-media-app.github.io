@@ -2,7 +2,7 @@ import React from "react";
 // ICONS
 import { HomeIcon } from "../../../../icons";
 
-function NavItems({ navItemIcon, navItemText, arrowStyle }) {
+function NavItems({ navItemIcon, navItemText, Style }) {
 	return (
 		<a
 			href="#"
@@ -11,7 +11,7 @@ function NavItems({ navItemIcon, navItemText, arrowStyle }) {
 			<span>{navItemIcon}</span>
 			<span
 				className="hover:text-black text-[12px] font-light"
-				style={arrowStyle}
+				style={Style}
 			>
 				{navItemText}
 			</span>
