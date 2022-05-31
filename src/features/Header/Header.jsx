@@ -34,16 +34,16 @@ function Header() {
 	}, [deviceWidth]);
 
 	// TOGGLE NAVBAR ON MOBILE
-	$(document).ready(function () {
-		$(".nav-toggler").each(function (_, navToggler) {
-			var target = $(navToggler).data("target");
-			$(navToggler).on("click", function () {
-				$(target).animate({
-					height: "toggle",
-				});
-			});
-		});
-	});
+	// $(document).ready(function () {
+	// 	$(".nav-toggler").each(function (_, navToggler) {
+	// 		var target = $(navToggler).data("target");
+	// 		$(navToggler).on("click", function () {
+	// 			$(target).animate({
+	// 				height: "toggle",
+	// 			});
+	// 		});
+	// 	});
+	// });
 
 	return (
 		<nav className="flex items-center bg-white  p-1  lg:px-[175px] lg:pr-[100px] flex-wrap">
