@@ -60,7 +60,7 @@ function NavMenu() {
 						href="#"
 						className="lg:inline-flex flex-col lg:w-auto w-full pl-7 py-2 rounded text-[#666666] items-center justify-center  ml-5 mr-5 "
 					>
-						<span>
+						<span className="mb-[5px]">
 							<WorkIcon />
 						</span>
 						<span className="text-[12px] font-light">
