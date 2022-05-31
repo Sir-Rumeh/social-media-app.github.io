@@ -26,7 +26,7 @@ function NavMenu() {
 			className="hidden top-navbar lg:inline-flex lg:flex-grow lg:w-auto lg:mr-[115px]"
 			id="navigation"
 		>
-			<div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto ">
+			<div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto mr-[15rem] lg:mr-0">
 				<NavItems
 					Style={Style}
 					navItemIcon={<HomeIcon />}
@@ -45,7 +45,7 @@ function NavMenu() {
 					navItemIcon={<NotificationIcon />}
 					navItemText={"Notifications"}
 				/>
-				<div className="divide-x divide-[#6666]">
+				<div className="divide-x divide-[#6666] ml-[1.5rem] lg:ml-0">
 					<a
 						href="#"
 						className="lg:inline-flex flex-col lg:w-auto w-full px-1 py-2 rounded text-[#666666] items-center justify-center  ml-5 "
@@ -58,7 +58,7 @@ function NavMenu() {
 
 					<a
 						href="#"
-						className="lg:inline-flex flex-col lg:w-auto w-full pl-7 py-2 rounded text-[#666666] items-center justify-center  ml-5 mr-5 "
+						className="lg:inline-flex flex-col lg:w-auto w-full pl-7 py-2 rounded text-[#666666] items-center justify-center ml-5 lg:mr-5 "
 					>
 						<span className="mb-[5px]">
 							<WorkIcon />
