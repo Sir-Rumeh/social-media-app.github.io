@@ -10,8 +10,8 @@ import { MoralisProvider } from "react-moralis";
 const container = document.getElementById("root");
 const root = createRoot(container);
 
-const serverUrl = "https://txxcudlosn6t.usemoralis.com:2053/server";
-const appId = "Lg0X2chvyBbk1lCM8G5xBNGbYshMBi1lL1u6U8cU";
+const serverUrl = "https://lzgqsq3g27b2.usemoralis.com:2053/server";
+const appId = "VyEg7YNusX1a5ImNQ5GMf4XA7LGPQCRHeyMgIMOr";
 
 root.render(
 	<React.StrictMode>

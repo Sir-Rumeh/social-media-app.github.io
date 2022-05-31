@@ -1,4 +1,9 @@
-[Live Site Here](https://linkedin-social-media-app.netlify.app/)
+This is a linkedin clone app for the decentralized web aimed at conecting web3 enthusiasts.
+This was built as part of an assesment task using web3 Moralis SDK.
+
+A specific feature with this web application is that whenever a user likes a post, the user is prompted with a Metamask modal login option to enable the user receive eth.
+
+## [Live Site Here](https://linkedin-social-media-app.netlify.app/)
 
 ## Technologies used for this application
 
@@ -8,6 +13,10 @@
 4. Moralis.
 5. Json-Server.
 6. Axios.
+
+![localhost_3000_(Laptop ( Custom ))](https://user-images.githubusercontent.com/95687544/171163464-e8528490-3c09-4bc2-aff4-9216fcff6ac1.png)
+![localhost_3000_(iPad)](https://user-images.githubusercontent.com/95687544/171163478-3b1a545b-64d4-415e-8806-b3b15163540e.png)
+![localhost_3000_(Redmi Note 8)](https://user-images.githubusercontent.com/95687544/171163496-bd3c72cd-20d3-4290-9305-8862de677e16.png)
 
 # Getting Started with Create React App and Redux
 
