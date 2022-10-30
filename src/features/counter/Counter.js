@@ -5,7 +5,7 @@ import // decrement,
 // incrementByAmount,
 // incrementAsync,
 // incrementIfOdd,
-// selectCount,
+selectCount,
 "./counterSlice";
 import styles from "./Counter.module.css";
 
