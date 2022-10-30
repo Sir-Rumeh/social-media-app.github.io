@@ -1,0 +1,14 @@
+@media (min-width: 1100px) and (max-width: 1200px) {
+	.feeds-1 {
+		min-width: 37rem;
+		transform: translateX(-16%);
+	}
+	.feeds-2 {
+		min-width: 37rem;
+		transform: translateX(-16%);
+	}
+	.feeds-3 {
+		min-width: 37rem;
+		transform: translateX(-16%);
+	}
+}

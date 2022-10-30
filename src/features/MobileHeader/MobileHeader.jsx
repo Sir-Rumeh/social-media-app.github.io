@@ -1,4 +1,6 @@
 import React from "react";
+// CSS
+import "./MobileHeader.css";
 
 // COMPONENTS
 import ProfilePicImage from "../ShareBox/ProfilePicImage";
@@ -13,15 +15,7 @@ function MobileHeader() {
 		<div className="md:hidden flex  items-center align-middle justify-between w-full p-2 pl-[35px]">
 			<ProfilePicImage ProfilePicImageSrc={ProfilePicImageSrc} />
 			<form action="" className="">
-				<div className="flex items-center text-gray-400 focus-within:text-gray-600 ">
-					<input
-						type="text"
-						name="search"
-						placeholder="Search talk"
-						autocomplete="off"
-						aria-label="Search talk"
-						className=" placeholder-gray-500 text-black border-none focus:ring-gray-500 focus:ring-2 w-[19rem] -ml-4 pl-10 h-10"
-					/>
+				<div className="flex items-center justify-center text-gray-400 focus-within:text-gray-600 ">
 					<svg
 						width="16"
 						height="16"
@@ -36,6 +30,14 @@ function MobileHeader() {
 							fill-opacity="0.9"
 						/>
 					</svg>
+					<input
+						type="text"
+						name="search"
+						placeholder="Search"
+						autocomplete="off"
+						aria-label="Search"
+						className=" placeholder-gray-500 text-black border-none focus:ring-gray-500 focus:ring-2  h-10 header-input"
+					/>
 				</div>
 			</form>
 			<MessageIcon />

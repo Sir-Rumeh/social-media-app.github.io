@@ -2,6 +2,9 @@ import React from "react";
 import logo from "./logo.svg";
 import { Counter } from "./features/counter/Counter";
 
+// CSS
+import "./App.css";
+
 // COMPONENTS
 import Header from "./features/Header/Header";
 import ShareBox from "./features/ShareBox/ShareBox";
@@ -25,9 +28,9 @@ function App() {
 		<div className="App bg-[#F3F2EF] min-h-screen ">
 			<Header />
 			<div className="">
-				<div className="px-[1rem] lg:px-[31.2rem] ">
+				<div className="px-[1rem] lg:px-[31.2rem] share-box-container">
 					<ShareBox />
-					<div className="hidden md:flex items-center w-full ">
+					<div className="hidden md:flex items-center w-full sort-by">
 						<span className="border-t-[1px] border-[#d3d3d3] w-[85%] h-[1px]"></span>
 						<span className="ml-auto text-sm flex items-center">
 							<small className="mr-1">Sort By: </small>

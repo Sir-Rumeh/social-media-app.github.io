@@ -12,7 +12,7 @@ import FeedImage3 from "../../images/FeedImage3.png";
 
 function FeedsCard() {
 	return (
-		<div className="w-[100%] md:w-full h-auto rounded-[8px] border-[#E0E0E0] bg-white flex flex-col justify-center items-start mb-6 -mt-4">
+		<div className="w-[100%] md:w-full h-auto rounded-[8px] border-[#E0E0E0] bg-white flex flex-col justify-center items-start mb-6 -mt-4 feeds-3">
 			<FeedsTop
 				name={"Google"}
 				userPicture={UserPicture3}

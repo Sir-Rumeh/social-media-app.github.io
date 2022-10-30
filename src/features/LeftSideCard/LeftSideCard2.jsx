@@ -2,10 +2,12 @@ import React from "react";
 
 // ICONS
 import { LeftCardArrowIcon, PlusIcon } from "../../icons";
+// CSS
+import "./LeftSide2.css";
 
 function LeftSideCard2() {
 	return (
-		<div className="hidden lg:flex flex-col items-start w-[270px] h-[195px] border border-[#d3d3d3] rounded-[8px] bg-white absolute top-[463px] left-[185px] p-[15px] ">
+		<div className="hidden lg:flex flex-col items-start w-[270px] h-[195px] border border-[#d3d3d3] rounded-[8px] bg-white absolute top-[463px] left-[185px] p-[15px] left-side-2">
 			{/* CONNECTIONS */}
 			<div className="flex items-center justify-between text-sm font-light mb-4 w-full">
 				<p className="text-[#666666] opacity-80 "> Connections</p>

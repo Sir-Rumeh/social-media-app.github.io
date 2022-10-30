@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 // JQUERY
-import $ from "jquery";
+// import $ from "jquery";s
 // ICONS
 import { Logo, SearchIcon, MenuIcon } from "../../icons";
 import "./Header.css";

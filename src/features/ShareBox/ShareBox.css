@@ -1,0 +1,10 @@
+@media (min-width: 1100px) and (max-width: 1199px) {
+	.testing {
+		/* transform: translateX(-13%); */
+		/* background-color: red; */
+		transform: translateX(-95%);
+	}
+	.inner {
+		min-width: 37rem;
+	}
+}

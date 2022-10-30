@@ -4,12 +4,15 @@ import React from "react";
 import ProfileBanner from "../../images/ProfileBanner.png";
 import CardProfilePicture from "../../images/CardProfilePicture.png";
 
+// CSS
+import "./LeftSide1.css";
+
 // ICONS
 import { PremiumIcon } from "../../icons";
 
 function LeftSideCard1() {
 	return (
-		<div className="hidden lg:flex flex-col items-start w-[270px] h-[337px] border border-[#d3d3d3] rounded-[8px] bg-white absolute top-[93px] left-[185px] ">
+		<div className="hidden lg:flex flex-col items-start w-[270px] h-[337px] border border-[#d3d3d3] rounded-[8px] bg-white absolute top-[93px] left-[185px] left-side-1">
 			<img src={ProfileBanner} alt="" />
 			<img
 				className="border-2 border-white rounded-[50%] absolute mx-[35%] top-[5%] z-10"

@@ -1,0 +1,8 @@
+.start-post {
+	/* background-color: red; */
+	justify-content: space-between;
+	margin-left: 3.5rem;
+	width: 520px;
+}
+
+/* md:ml-[3.5rem] lg:w-[520px] */

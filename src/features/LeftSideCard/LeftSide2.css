@@ -1,0 +1,9 @@
+@media (min-width: 1100px) and (max-width: 1200px) {
+	.left-side-2 {
+		/* background-color: red; */
+		/* transform: translateX(-65%); */
+		left: 1%;
+		top: 75%;
+		/* transform: translateY(50%); */
+	}
+}
