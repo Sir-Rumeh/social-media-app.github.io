@@ -4,7 +4,7 @@ import {
 	// decrement,
 	// increment,
 	// incrementByAmount,
-	incrementAsync,
+	// incrementAsync,
 	incrementIfOdd,
 	selectCount,
 } from "./counterSlice";
